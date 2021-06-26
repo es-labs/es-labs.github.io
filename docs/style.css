@@ -18,6 +18,12 @@ img {
   margin-bottom: 2em;
 }
 
+.portfolio-container .card .content {
+  height: 100px;
+  overflow: hidden;
+  padding: 5px;
+}
+
 .card-content h3 {
   text-align: center;
 }

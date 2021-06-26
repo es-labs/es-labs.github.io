@@ -1,19 +1,20 @@
 ## Description
 
-This is the ES-Labs website page
+This is the ES-Labs website repository and aims to provide itself as a useful reference for building a profile page.
 
-Built using Bulma
+## Features
 
+References
 - https://github.com/thedaviddias/Front-End-Checklist/
 - https://validator.w3.org/nu/
 
 On Github Pages
 - https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site
+- CNAME Settings
+  - apex domain -> es-labs.github.io
+  - www -> es-labs.github.io
 
-Features
+Notes
+- built using Bulma
 - use web safe fonts
 - scroll to top
-
-CNAME Settings
-1. apex domain -> es-labs.github.io
-2. www -> es-labs.github.io
