@@ -8,14 +8,37 @@ img {
   /* border: 1px solid #ccc; */
 }
 
+.navbar-brand .navbar-item {
+  /* text-transform: uppercase; */
+  font-weight: 600;
+  color: #a0a0a0;
+}
+
+.navbar-brand .navbar-item:hover {
+  color: #a0a0a0;
+}
+
 .section-heading {
   text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
+@media (max-width: 599px) {
+  .about .box {
+    margin: 0px 15px 0px 15px;
+  }
+}
+
 .portfolio-container .card {
   margin-bottom: 2em;
+}
+
+@media (max-width: 599px) {
+  .portfolio-container .card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .portfolio-container .card .content {
