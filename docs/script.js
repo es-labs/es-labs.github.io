@@ -9,12 +9,20 @@ function scrollFunction() {
   }
 }
 
+async function fetchHTML(fileName, elIdStr) {
+  const res = await fetch(fileName)
+  const txt = await res.text()
+	const parser = new DOMParser()
+	const doc = parser.parseFromString(txt, 'text/html')
+  document.querySelector(elIdStr).insertAdjacentElement('afterend', doc.body.firstChild)
+}
+
 // When the user scrolls down 20px from the top of the document, show the scroll up button
 window.onscroll = function () {
   scrollFunction();
 };
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   // Get all "navbar-burger" elements
   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
@@ -36,4 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
-});
+  // await fetchHTML('services.html', '#portfolio') // order is important
+  // await fetchHTML('skills.html', '#services')
+  // await fetchHTML('work.html', '#skills')
+})

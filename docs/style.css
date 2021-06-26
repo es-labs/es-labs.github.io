@@ -76,18 +76,18 @@ img {
   padding: 10px;
 }
 
-.section-color.services2 {
+.section-color.services {
   padding: 100px;
   background-color: #43485c;
   color: white;
 }
 
-.section-color.services2 .title,
-.section-color.services2 .subtitle {
+.section-color.services .title,
+.section-color.services .subtitle {
   color: white;
 }
 
-.section-color.services2 i {
+.section-color.services i {
   font-size: 3rem;
   padding: 20px;
 }
