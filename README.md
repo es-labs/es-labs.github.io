@@ -18,3 +18,5 @@ Notes
 - built using Bulma
 - use web safe fonts
 - scroll to top
+- https://dummyimage.com/555x255/000/fff (dummy image)
+- https://www.bannerbear.com/demos/github-social-preview-generator-tool/#generate (generate image from github)
